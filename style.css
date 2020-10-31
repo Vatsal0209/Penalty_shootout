@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #8609da;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 600px;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+.container > .row {
+  width: 100%;
+  justify-content: space-evenly;
+}
+.row {
+  display: flex;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile-name {
+  margin: 20px 0px;
+  font-size: larger;
+  font-weight: bold;
+}
+.profile-icon {
+  margin-top: 20px;
+  border-radius: 100px;
+  border: 2px solid bisque;
+}
+.score {
+  font-size: xx-large;
+  margin-bottom: 50px;
+}
+.score > span {
+  margin: 0px 5px;
+}
+.round-runs {
+  font-size: xx-large;
+  width: 200px;
+  justify-content: space-evenly;
+}
+.try-again {
+  background: linear-gradient(135deg, red, yellow);
+  color: white;
+  font-size: 15px;
+  width: 100px;
+  height: 40px;
+  margin-top: 40px;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid bisque;
+}
+.madrid-button {
+  background: linear-gradient(135deg, red, yellow);
+  color: white;
+  font-size: 18px;
+  width: 300px;
+  margin-top: 40px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
